@@ -131,6 +131,7 @@ export default class RatingRequestor {
       _config.title,
       _config.message,
       buttons,
+      {cancelable: false},
     );
   }
 
